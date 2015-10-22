@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arizona Firearm Statistics</title>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="photo_scripts.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<body>
+
+<div id="header">
+    <h1>Traced & Recovered Firearms in the United States</h1>
+</div>
+
+<h2 class="offscreen">W3C Web Resources</h2>
+<div id="hmenu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="azStats.html">Arizona Statistics</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="pics.html">Photo Page</a></li>
+    </ul>
+</div>
+
+<table id="photoHolder" width="900px">
+    <tr>
+        <th>
+            <img id="pic1" onclick="box1()" src="http://www.rikvin.com/wp-content/uploads/2013/12/singapore-flag1.jpg">
+        </th>
+        <th>
+            <img id="pic2" onclick="box2()" src="http://media.fx-mm.com/wp-content/uploads/Flag-of-Malaysia.jpg">
+        </th>
+        <th>
+            <img id="pic3" onclick="box3()" src="http://www.africalegalnetwork.com/wp-content/uploads/2012/10/china-flag-300x300.jpg">
+        </th>
+    </tr>
+
+    <tr>
+        <td id="des1">Singapore</td>
+        <td id="des2">Malaysia</td>
+        <td id="des3">China</td>
+    </tr>
+
+    <tr>
+        <td><button type="button" onclick="changeDes1()">Change Description</button></td>
+        <td><button type="button" onclick="changeDes2()">Change Description</button></td>
+        <td><button type="button" onclick="changeDes3()">Change Description</button></td>
+    </tr>
+
+    <tr>
+        <th>
+            <img id="pic4" onclick="box4()" src="http://freewallpaperdownloads.net/wp-content/uploads/2015/03/ipad-wallpaper-uk-flag-300x300.jpg">
+        </th>
+        <th>
+            <img id="pic5" onclick="box5()" src="http://insights.ingredientsnetwork.com/wp-content/uploads/2015/01/japan-flag-9184105-300x300.jpg">
+        </th>
+        <th>
+            <img id="pic6" onclick="box6()" src="http://media.fx-mm.com/wp-content/uploads/Australian-flag.jpg">
+        </th>
+    </tr>
+
+    <tr>
+        <td id="des4">United Kingdom</td>
+        <td id="des5">Japan</td>
+        <td id="des6">Australia</td>
+    </tr>
+
+    <tr>
+        <td><button type="button" onclick="changeDes4()">Change Description</button></td>
+        <td><button type="button" onclick="changeDes5()">Change Description</button></td>
+        <td><button type="button" onclick="changeDes6()">Change Description</button></td>
+    </tr>
+
+    <tr>
+        <th>
+            <img id="pic7" onclick="box7()" src="https://lh5.ggpht.com/u4WS8-tZLDyV645OTZT-t5uD5RvmTU20iPXELTfDiJjgtdvpoZZk0u143dL6Kv6MaNLU=w300">
+        </th>
+        <th>
+            <img id="pic8" onclick="box8()" src="https://wallpaperscraft.com/image/flag_symbols_colors_materials_stripes_color_indonesia_44096_300x300.jpg">
+        </th>
+        <th>
+            <img id="pic9" onclick="box9()" src="https://lh6.ggpht.com/LG-CjIUpta8_y4hvvzup1xFaH4RnTQOLE_S7ZpYvIIAfJj-HD5SoO-74JDpU_lF9LHg=w300">
+        </th>
+    </tr>
+
+    <tr>
+        <td id="des7">Germany</td>
+        <td id="des8">Indonesia</td>
+        <td id="des9">South Korea</td>
+    </tr>
+
+    <tr>
+        <td><button type="button" onclick="changeDes7()">Change Description</button></td>
+        <td><button type="button" onclick="changeDes8()">Change Description</button></td>
+        <td><button type="button" onclick="changeDes9()">Change Description</button></td>
+    </tr>
+
+</table>
+
+<div id="instructions">
+    <h3>Instructions</h3>
+    <p>These are picture of flags of countries with strict gun control laws. If you click on the pictures they change to a flag of a country with loose gun control laws. Click on the buttons below the pictures to change the description to the name of the country represented by the second flag.</p>
+</div>
+
+<div id="photoFooter">
+    <p>Copyright© Daucen Osborn 2015</p>
+</div>
+
+</body>
+</html>
